@@ -5,7 +5,7 @@ yarn init -Y
 ```
 
 Let's create two js files in [src](src) folder, define a function in one of them and call it in the other.  
-Node.ds by default cannot run this app. Let's install a bundler to combine all the files into one.
+Node by default cannot run this app. Let's install a bundler to combine all the files into one.
 ```
 yarn add webpack webpack-cli -D
 ```
