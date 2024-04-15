@@ -10,7 +10,7 @@ Node by default cannot run this app. Let's install a bundler to combine all the 
 yarn add webpack webpack-cli -D
 ```
 
-Add build script to [project.json](project.json) and build application.
+Add build script to [package.json](package.json) and build application.
 ```
 node run build
 ```
