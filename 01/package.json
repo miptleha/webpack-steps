@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "build:dev": "webpack env=development",
-    "build:prod": "webpack env=production"
+    "start": "node dist/main.js"
   },
   "devDependencies": {
     "webpack": "^5.91.0",
