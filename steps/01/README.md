@@ -16,3 +16,13 @@ yarn run build
 yarn start
 ```
 
+Let's create a web application, for this we will need [index.html](src/index.html) and basic config [webpack.config.js] with html-webpack-plugin.
+```
+yarn add html-webpack-plugin -D
+```
+
+It remains to eliminate the warning that the mode option is not specified. Both modes will be useful, add them into [package.json](package.json).
+```
+yarn run build:dev
+yarn run build:prod
+```
