@@ -16,7 +16,7 @@ yarn run build
 yarn start
 ```
 
-Let's create a web application, for this we will need [index.html](src/index.html) and basic config [webpack.config.js] with html-webpack-plugin.
+Let's create a web application, for this we will need [index.html](src/index.html) and basic config [webpack.config.js](webpack.config.js) with html-webpack-plugin.
 ```
 yarn add html-webpack-plugin -D
 ```
