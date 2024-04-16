@@ -26,3 +26,5 @@ It remains to eliminate the warning that the mode option is not specified. Both 
 yarn run build:dev
 yarn run build:prod
 ```
+
+You can open the created page from `dist` folder in the browser and make sure that this is the template html to which the bundled js is connected.
