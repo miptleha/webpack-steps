@@ -27,4 +27,4 @@ yarn run build:dev
 yarn run build:prod
 ```
 
-You can open the created page from `dist` folder in the browser and make sure that this is the template html to which the bundled js is connected.
+You can open the created page from `dist` folder in the browser and make sure that this is [index.html](src/index.html) to which the bundled js is connected.
