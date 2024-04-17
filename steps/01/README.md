@@ -29,4 +29,4 @@ yarn run build:prod
 
 You can open the created html from `dist` folder in the browser and make sure that this is [index.html](src/index.html) to which the bundled js is connected.
 
-[Project source code](../)
+[Project source code](./)
