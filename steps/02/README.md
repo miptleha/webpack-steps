@@ -1,6 +1,6 @@
 ## Typescript project
 We will follow the [instruction](https://webpack.js.org/guides/typescript/).  
-Let's take the project from the previous step and replace the file extensions js with ts. In order for the project to build, you need to install packages.
+Let's take the project from the previous step and replace the file extensions js with ts. In order for the project to build, you need to install the following packages:
 ```
 yarn add typescript ts-loader -D
 ```
