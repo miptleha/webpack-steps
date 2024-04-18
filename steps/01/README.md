@@ -1,5 +1,6 @@
 ## Basic JS application
-Create empty Node.JS project
+Let's [get started](https://webpack.js.org/guides/getting-started/) with webpack.  
+Create empty Node.JS project.  
 ```
 yarn init -Y
 ```
