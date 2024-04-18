@@ -5,7 +5,7 @@ Create empty Node.JS project.
 yarn init -Y
 ```
 
-Let's create two js files in [src](src) folder, define a function in one of them and call it in the other.  
+Create two js files in [src](src) folder, define a function in one of them and call it in the other.  
 Node by default cannot run this app. Let's install a bundler to combine all the files into one.
 ```
 yarn add webpack webpack-cli -D
@@ -28,6 +28,6 @@ yarn run build:dev
 yarn run build:prod
 ```
 
-You can open the created html from `dist` folder in the browser and make sure that this is [index.html](src/index.html) to which the bundled js is connected.
+You can open the created html from `dist` folder in the browser and make sure that this is [index.html](src/index.html) to which the bundled js is connected ('hello' message in console).
 
 [Project source code](./)
