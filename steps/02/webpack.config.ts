@@ -1,8 +1,14 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import path from "path";
+import webpack from "webpack";
 
-const config = function (env) {
-    return {
+type Mode = "production" | "development";
+interface EnvVariables {
+    mode: Mode
+}
+
+const configFunc = function (env: EnvVariables) {
+    const config: webpack.Configuration = {
         mode: env.mode ?? 'production',
         entry: path.resolve(__dirname, 'src', 'index.ts'),
         output: {
@@ -26,6 +32,7 @@ const config = function (env) {
             extensions: ['.tsx', '.ts', '.js'],
         },
     }
+    return config;
 }
 
-module.exports = config;
+export default configFunc;

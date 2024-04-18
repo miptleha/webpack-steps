@@ -10,4 +10,12 @@ The build is successful, the web application works in the browser.
 
 Now we will [convert](https://webpack.js.org/configuration/configuration-languages/) the webpack configuration file from javascript to typescript.
 
+Add ts-node and types to project.
+```
+yarn add ts-node @types/node @types/webpack @types/html-webpack-plugin -D
+```
+
+Rename webpack.config.js to [webpack.config.ts](webpack.config.ts). Change `require` to `import`, `module.exports` to `export default`, do variable typing.  
+Also make recommended compiler options in [tsconfig.json](tsconfig.json).
+
 [Project source code](./)
