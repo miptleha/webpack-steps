@@ -5,7 +5,8 @@ Let's add the ability to automatically rebuild when the source code changes. For
 yarn add webpack-dev-server -D
 ```
 
-Let's perform the recommended settings, namely, add the `webpack serve` launch to [package.json](package.json), and also add the `devServer` section to [webpack.config.ts](webpack.config.ts).  
+Let's perform the recommended settings, namely, add the `webpack serve` launch to [package.json](package.json).  
+Also add the `devServer` section to [webpack.config.ts](webpack.config.ts).  
 We can run application in live reloading mode:
 ```
 yarn start
