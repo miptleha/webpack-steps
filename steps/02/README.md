@@ -2,7 +2,7 @@
 We will follow the [instruction](https://webpack.js.org/guides/typescript/).  
 Let's take the project from the previous step and replace the file extensions js with ts. Then install the following packages:
 ```
-yarn add typescript ts-loader -D
+npm add -D typescript ts-loader
 ```
 
 Add recommended file [tsconfig.json](tsconfig.json) to the project and add the typescript loader to [webpack.config.js](webpack.config.ts).  
@@ -12,10 +12,16 @@ Now we will [convert](https://webpack.js.org/configuration/configuration-languag
 
 Add ts-node and types to project.
 ```
-yarn add ts-node @types/node @types/webpack @types/html-webpack-plugin -D
+npm add -D ts-node @types/node @types/webpack @types/html-webpack-plugin
 ```
 
 Rename webpack.config.js to [webpack.config.ts](webpack.config.ts). Change `require` to `import`, `module.exports` to `export default`, do variable typing.  
 Also make recommended compiler options in [tsconfig.json](tsconfig.json).
+
+Check that the build is still working:
+```
+npm run build
+```
+Open `index.html` from `dist` folder in browser.
 
 [Project source code](./)

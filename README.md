@@ -1,7 +1,6 @@
 # webpack-steps
 
 Each folder represents an application with a progressively more complex webpack configuration.  
-I used the `yarn` package manager, with `npm` everything is the same.
 
 Step | Description
 -|-
