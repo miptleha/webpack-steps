@@ -35,11 +35,11 @@ const configFunc = function (env: EnvVariables) {
         resolve: {
             extensions: ['.tsx', '.ts', '.js'],
         },
-        devtool: isDev ? 'inline-source-map' : false,
-        devServer: {
+        devtool: isDev && 'inline-source-map',
+        devServer: isDev ? {
             port: 8080,
             open: true
-        }
+        } : undefined,
     }
     return config;
 }

@@ -7,7 +7,7 @@ npm add -D webpack-dev-server
 
 Let's perform the recommended settings, namely, add the `webpack serve` launch to [package.json](package.json).  
 Also add the `devServer` section to [webpack.config.ts](webpack.config.ts).  
-We can run application in live reloading mode:
+We can run application in live reloading mode (no need to build the app):
 ```
 npm start
 ```
