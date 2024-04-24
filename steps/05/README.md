@@ -8,7 +8,7 @@ For successful assembly you will need to install the following plugins:
 npm add -D css-loader sass-loader sass style-loader mini-css-extract-plugin
 ```
 
-We can use styles as modules.  
+We can use styles as [css modules](https://css-tricks.com/css-modules-part-1-need/).  
 In the production build, the class names will be hashes, and in the development build they will contain the path to the class.
 
 [Project source code](./)
