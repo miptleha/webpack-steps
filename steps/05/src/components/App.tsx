@@ -1,6 +1,6 @@
 import { useEffect, useState, ChangeEvent } from "react";
 import classes from './App.module.scss';
-import './App.scss';
+import './App.css';
 
 type TodoItemType = {
     id: number,

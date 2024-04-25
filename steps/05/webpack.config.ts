@@ -14,7 +14,7 @@ const configFunc = function (env: EnvVariables) {
     const isDev = mode === 'development';
 
     const cssLoader = {
-        test: /\.s[ac]ss$/i,
+        test: /\.(sa|sc|c)ss$/i,
         use: [
             isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
             {
