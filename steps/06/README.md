@@ -1,7 +1,7 @@
 ## Code-Splitting
 
 Let's create a simple application with navigation.  
-Let's take the source code of the previous lesson as a basis and create a new application based on `react-router-dom`.  
+Take the source code of the previous lesson as a basis and create a new application based on `react-router-dom`.  
 ```
 npm add react-router-dom
 npm add -D @types/react-router-dom
