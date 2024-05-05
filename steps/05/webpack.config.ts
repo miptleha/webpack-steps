@@ -21,6 +21,7 @@ const configFunc = function (env: EnvVariables) {
                 loader: 'css-loader',
                 options: {
                     modules: {
+                        auto: true,
                         namedExport: false,
                         localIdentName: isDev ? '[path][name]__[local]' : '[hash:base64:8]'
                     },

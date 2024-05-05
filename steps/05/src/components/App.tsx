@@ -44,7 +44,7 @@ export function App() {
 
     return (
         <>
-            <h1>Today's to-do list</h1>
+            <h1 className="title">Today's to-do list</h1>
 
             {todo.map(i => (
                 <div key={i.id} className={classes.item}>
