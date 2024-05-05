@@ -19,6 +19,6 @@ It will be automatically shown at the end of the product build.
 ```
 npm run build:prod
 ```
-Note that the `dist` folder now contains several ds files: the main one and one for each asynchronous page.
+Note that the `dist` folder now contains several js files: the main one and one for each asynchronous page.
 
 [Project source code](./)
