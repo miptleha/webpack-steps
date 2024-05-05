@@ -11,7 +11,7 @@ npm add -D @types/react-router-dom
 
 For routing to work correctly, you will need to set the `historyApiFallback` option for the devServer section in the [webpack.config.ts](webpack.config.ts).  
 To create chunks, we do not need to make any changes; webpack automatically creates them for dynamic imports.  
-Use code from React [documentation](https://legacy.reactjs.org/docs/code-splitting.html) and use asynchronous pages.  
+Use code from React [documentation](https://legacy.reactjs.org/docs/code-splitting.html) and create asynchronous pages.  
 
 
 Connect analytics to estimate the size of our pages using the [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) plugin.  
