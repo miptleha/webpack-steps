@@ -10,7 +10,7 @@ npm add -D @types/react-router-dom
 ![app.png](app.png)
 
 For routing to work correctly, you will need to set the `historyApiFallback` option for the devServer section in the [webpack.config.ts](webpack.config.ts).  
-To create chunks, we do not need to make any changes to the assembly; webpack automatically creates them for dynamic imports.  
+To create chunks, we do not need to make any changes; webpack automatically creates them for dynamic imports.  
 Use code from React [documentation](https://legacy.reactjs.org/docs/code-splitting.html) and use asynchronous pages.  
 
 
