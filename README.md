@@ -9,3 +9,4 @@ Step | Description
 [03 Live reloading](steps/03/README.md) | DevServer configuration and source maps
 [04 React app](steps/04/README.md) | React project
 [05 Styles](steps/05/README.md) | Use styles
+[06 Chunks](steps/06/README.md) | Code-splitting
