@@ -1,6 +1,6 @@
 ## Aliases
 
-Using relative paths may not be very convenient.  
+Using relative paths causes difficulties when files are deeply nested.  
 It can be convenient to specify the path relative to the root folder in imports.  
 We will denote the path from the root folder with the `@` symbol.
 
