@@ -10,3 +10,4 @@ Step | Description
 [04 React app](steps/04/README.md) | React project
 [05 Styles](steps/05/README.md) | Use styles
 [06 Chunks](steps/06/README.md) | Code-splitting
+[07 Aliases](steps/07/README.md) | Global import paths
