@@ -13,7 +13,7 @@ add a new rule to [webpack.config.ts](webpack.config.ts).
 In `output` we will add the property `assetModuleFilename`,
 in order to collect icons in a separate folder (for prod build).
 
-You also need to tell `typescript` about new file extensions.
+You also need to tell `typescript` about new file extensions.  
 To do this, let's make changes to the file [global.d.ts](src/global.d.ts).
 
 Now there are no errors and the images are successfully displayed in the header.
