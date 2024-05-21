@@ -7,10 +7,10 @@ We will display images in the header.
 Add images with the `import` directive and then specify them in the `src` property of the `img` element.  
 Do this in the file [src/components/Layout.tsx](src/components/Layout.tsx).
 
-During build there will be an error that the loader for new file types is not installed.
+During build there will be an error that the loader for new file types is not installed.  
 According to [doc](https://webpack.js.org/guides/asset-modules/)
-add a new rule to [webpack.config.ts](webpack.config.ts),
-and in `output` we will add the property `assetModuleFilename`,
+add a new rule to [webpack.config.ts](webpack.config.ts).  
+In `output` we will add the property `assetModuleFilename`,
 in order to collect icons in a separate folder (for prod build).
 
 You also need to tell `typescript` about new file extensions.
