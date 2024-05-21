@@ -11,3 +11,4 @@ Step | Description
 [05 Styles](steps/05/README.md) | Use styles
 [06 Chunks](steps/06/README.md) | Code-splitting
 [07 Aliases](steps/07/README.md) | Using aliases in imports
+[08 Assets](steps/08/README.md) | Display images
