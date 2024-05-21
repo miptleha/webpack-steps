@@ -4,7 +4,7 @@ The project may contain images or fonts that we want to import onto the page.
 I create a folder [src/assets](src/assets) and place different types of images there.
 
 We will display images in the header.  
-Add images with the `import` directive and then specify them in the `src` property of the `img` element.
+Add images with the `import` directive and then specify them in the `src` property of the `img` element.  
 Do this in the file [src/components/Layout.tsx](src/components/Layout.tsx).
 
 During build there will be an error that the loader for new file types is not installed.
