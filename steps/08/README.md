@@ -5,7 +5,7 @@ I create a folder [src/assets](src/assets) and place different types of images t
 
 We will display images in the header.  
 Add images with the `import` directive and then specify them in the `src` property of the `img` element.  
-Do this in the file [Layout.tsx](src/components/Layout.tsx).
+Here is a new file [Layout.tsx](src/components/Layout.tsx) with attached images.
 
 During build there will be an error that the loader for new file types is not installed.  
 According to [doc](https://webpack.js.org/guides/asset-modules/)
