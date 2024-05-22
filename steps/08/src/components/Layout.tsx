@@ -18,7 +18,7 @@ export default function Layout() {
                     <img className="icon" src={ico} alt="ico" />
                     <img className="icon" src={png} alt="png" />
                     <img className="icon" src={jpg} alt="jpg" />
-                    <img className="icon" src={gif} alt="gif" />
+                    <img className="icon white" src={gif} alt="gif" />
                 </div>
             </header>
             <main className="container">

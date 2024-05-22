@@ -29,6 +29,10 @@ header > .images {
     float: left;
 }
 
+.white {
+    background-color: white;
+}
+
 header > a {
     color: white;
     margin: 0 1rem;
