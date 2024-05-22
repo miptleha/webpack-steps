@@ -11,7 +11,7 @@ During build there will be an error that the loader for new file types is not in
 According to [doc](https://webpack.js.org/guides/asset-modules/)
 add a new rule to [webpack.config.ts](webpack.config.ts).  
 In `output` we will add the property `assetModuleFilename`,
-in order to collect icons in a separate folder (for prod build).
+in order to collect icons in a separate folder.
 
 You also need to tell `typescript` about new file extensions.  
 To do this, let's make changes to the file [global.d.ts](src/global.d.ts).
