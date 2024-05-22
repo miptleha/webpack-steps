@@ -18,10 +18,15 @@ header {
 
 header > .images {
     display: inline-block;
+    height: 14px;
 }
 
-header > .images > * {
-    margin-right: 1em;
+.icon {
+    color: red;
+    width: 24px;
+    height: 24px;
+    margin: -4px 1em 0 0;
+    float: left;
 }
 
 header > a {

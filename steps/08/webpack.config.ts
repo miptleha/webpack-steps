@@ -30,7 +30,29 @@ const configFunc = function (env: EnvVariables) {
             },
             'sass-loader',
         ]
-    } 
+    }
+
+    const svgLoader = {
+        test: /\.svg$/i,
+        use: [
+            {
+                loader: '@svgr/webpack',
+                options: {
+                    icon: true,
+                    svgoConfig: {
+                        plugins: [
+                            {
+                                name: 'convertColors',
+                                params: {
+                                    currentColor: true
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
 
     const config: Configuration = {
         mode: mode,
@@ -57,9 +79,10 @@ const configFunc = function (env: EnvVariables) {
                     exclude: /node_modules/,
                 },
                 {
-                    test: /\.(png|jpg|gif|ico|svg|eot|ttf|woff)$/,
+                    test: /\.(png|jpg|gif|ico|eot|ttf|woff)$/,
                     type: 'asset/resource',
                 },
+                svgLoader,
                 cssLoader
             ],
         },

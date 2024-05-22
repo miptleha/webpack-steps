@@ -1,12 +1,10 @@
 import { Suspense } from "react";
 import { NavLink, Outlet } from "react-router-dom";
-import Svg from "@/assets/ok.svg";
+import Svg from "@/assets/pencil.svg";
 import ico from "@/assets/burger.ico";
 import png from "@/assets/page.png";
 import jpg from "@/assets/photo.jpg";
 import gif from "@/assets/loader.gif";
-
-const imgSize = { width: 16, height: 16 };
 
 export default function Layout() {
     return (
@@ -16,11 +14,11 @@ export default function Layout() {
                 <NavLink to="/blog">Blog</NavLink>
                 <NavLink to="/about">About</NavLink>
                 <div className="images">
-                    <img {...imgSize} src={Svg} alt="svg" />
-                    <img {...imgSize} src={ico} alt="ico" />
-                    <img {...imgSize} src={png} alt="png" />
-                    <img {...imgSize} src={jpg} alt="jpg" />
-                    <img {...imgSize} src={gif} alt="gif" />
+                    <Svg className="icon" />
+                    <img className="icon" src={ico} alt="ico" />
+                    <img className="icon" src={png} alt="png" />
+                    <img className="icon" src={jpg} alt="jpg" />
+                    <img className="icon" src={gif} alt="gif" />
                 </div>
             </header>
             <main className="container">
