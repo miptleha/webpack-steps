@@ -18,6 +18,8 @@ To do this, let's make changes to the file [global.d.ts](src/global.d.ts).
 
 Now there are no errors and the images are successfully displayed in the header.
 
+![app.png](app.png)
+
 Optionally, you can turn svg images into react components.  
 To do this, you need to change the loader for svg to `@svgr/webpack`.  
 Install it as a dev dependency and include in [webpack.config.ts](webpack.config.ts).  
