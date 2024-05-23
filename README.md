@@ -12,3 +12,4 @@ Step | Description
 [06 Chunks](steps/06/README.md) | Code-splitting
 [07 Aliases](steps/07/README.md) | Using aliases in imports
 [08 Assets](steps/08/README.md) | Webpack's asset bundling
+[09 Variables](steps/09/README.md) | Build variables
