@@ -76,7 +76,7 @@ const configFunc = function (env: EnvVariables) {
                 __IS_DEV__: JSON.stringify(isDev)
             }),
             new ProgressPlugin(),
-            new ReactRefreshWebpackPlugin()
+            isDev && new ReactRefreshWebpackPlugin()
         ],
         module: {
             rules: [
