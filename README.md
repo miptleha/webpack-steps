@@ -13,3 +13,4 @@ Step | Description
 [07 Aliases](steps/07/README.md) | Using aliases in imports
 [08 Assets](steps/08/README.md) | Webpack's asset bundling
 [09 Variables](steps/09/README.md) | Build variables
+[10 HMR](steps/10/README.md) | Hot Module Replacement for react
