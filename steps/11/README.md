@@ -7,7 +7,7 @@ See the documentation for [CopyWebpackPlugin](https://webpack.js.org/plugins/cop
 It allows you to copy existing files and folders that are not processed by `webpack`.  
 Create a static page with [cats](public/cats/) to the `public` folder.  
 When `devServer` starts, it will be used automatically, but it will need to be copied in `build:dev` and `build:prod`.  
-Do this in `new CopyPlugin` section of [webpack.config.ts](webpack.config.ts).
+Do this in `CopyPlugin` section of [webpack.config.ts](webpack.config.ts).
 
 ![app.png](app.png)
 
