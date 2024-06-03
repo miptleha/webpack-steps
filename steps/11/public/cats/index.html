@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <style>
+        img {
+            cursor: pointer;
+        }
+        
+        .thumb {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Click to enlarge picture</h2>
+    <img class="thumb" src="boss.jpeg" alt="boss" />
+    <img class="thumb" src="cat.jpg" alt="cat" />
+    <br/>
+    <img class="thumb" src="selfy.jpg" alt="selfy" />
+    <img class="thumb" src="work.jpg" alt="work" />
+</body>
+<script>
+    let imageNodes = document.getElementsByTagName('img');
+    for (var i = 0; i < imageNodes.length; i++) {          
+        imageNodes[i].addEventListener('click', function() {
+            for (var j = 0; j < imageNodes.length; j++) {
+                let e = imageNodes[j];
+                if (e !== this) {
+                    e.classList.add("thumb");
+                }
+            }
+            this.classList.toggle("thumb");
+        });
+    }
+</script>
+</html>
