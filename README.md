@@ -15,3 +15,4 @@ Step | Description
 [09 Variables](steps/09/README.md) | Build variables
 [10 HMR](steps/10/README.md) | Hot Module Replacement for react
 [11 Favicon + copy](steps/11/README.md) | Add favicon and use copy plugin
+[12 Babel](steps/12/README.md) | Use Babel loader
