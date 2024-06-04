@@ -24,7 +24,7 @@ npm run build
 ```
 Open `index.html` from `dist` folder in browser.
 
-* PS *  
+**PS**  
 To support `js` and `jsx` files in a project, just add these extensions to the `test` option for `ts-loader`.  
 I forgot to do this, so further source codes will only be for `typescript`.
 
