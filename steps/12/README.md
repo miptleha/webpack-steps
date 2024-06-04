@@ -13,7 +13,7 @@ In the file [webpack.config.ts](webpack.config.ts) replace `ts-loader` with `bab
 If you try to build the project now, you will get an error that the required presets are not installed.  
 Let's indicate them in the file [babel.config.json](babel.config.json).
 
-I didn’t install the presets separately, they were picked up from me anyway.
+I didn’t install the presets separately, they were picked up from me anyway.  
 You can add them if necessary:  
 ```
 npm add -D @babel/preset-typescript @babel/preset-react
