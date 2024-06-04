@@ -1,7 +1,7 @@
 ﻿## Babel-loader
 
 We have already configured the assembly of `ts` and `tsx` files using `ts-loader`.  
-It, in turn, uses `babel-loader` internally.
+As an alternative to the `ts-loader` there can be a `babel-loader`.
 
 Let's remove the link to `ts-loader` from [package.json](package.json),  
 Install `babel-loader`:  
