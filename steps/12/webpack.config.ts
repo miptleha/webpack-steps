@@ -6,6 +6,7 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { BundleAnalyzerPlugin } from "webpack-bundle-analyzer";
 import ReactRefreshWebpackPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import CopyPlugin from "copy-webpack-plugin";
+import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 
 type Mode = "production" | "development";
 interface EnvVariables {
@@ -82,7 +83,8 @@ const configFunc = function (env: EnvVariables) {
                 patterns: [
                     { from: path.resolve(__dirname, 'public'), to: path.resolve(__dirname, 'dist') }
                 ]
-            })
+            }),
+            new ForkTsCheckerWebpackPlugin()
         ],
         module: {
             rules: [
