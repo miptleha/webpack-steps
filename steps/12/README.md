@@ -19,7 +19,8 @@ You can add them if necessary:
 npm add -D @babel/preset-typescript @babel/preset-react
 ```
 
-If we make an error with types in the source file, it will be highlighted in the editor, but will not appear in the browser (webpack build will be successful).  
+If we make an error with types in the source file, it will be highlighted in the editor.  
+But will not appear in the browser (webpack build will be successful).  
 To fix this we need a [plugin](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin):  
 ```
 npm add -D fork-ts-checker-webpack-plugin
