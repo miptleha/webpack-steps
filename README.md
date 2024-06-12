@@ -17,3 +17,4 @@ Step | Description
 [11 Favicon + copy](steps/11/README.md) | Add favicon and use copy plugin
 [12 Babel](steps/12/README.md) | Use Babel loader
 [13 Typescript loaders](steps/13/README.md) | Alternative typescript loaders
+[14 Source maps](steps/14/README.md) | Debug and stacktrace
