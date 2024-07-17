@@ -18,3 +18,4 @@ Step | Description
 [12 Babel](steps/12/README.md) | Use Babel loader
 [13 Typescript loaders](steps/13/README.md) | Alternative typescript loaders
 [14 Source maps](steps/14/README.md) | Debug and stacktrace
+[15 Decomposition](steps/15/README.md) | Splitting the configuration file
