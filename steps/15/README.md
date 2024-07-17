@@ -1,7 +1,6 @@
 ﻿## Decomposition
 
-In this chapter we will not add anything, but split [webpack.config.ts](webpack.config.ts) into small parts,  
-responsible for a specific section.  
+In this chapter we will not add anything, but split config into small parts, responsible for a specific section.  
 Let's put them in the [config/build](config/build) folder.  
 Since the paths are relative, we will define them in [webpack.config.ts](webpack.config.ts) and pass them along the chain
 into generator functions for parts of the `webpack` configuration.
