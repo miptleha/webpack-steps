@@ -4,7 +4,7 @@ Each folder represents an application with a progressively more complex webpack 
 
 Step | Description
 -|-
-[01 Basic configuration](steps/01 basic/README.md) | Default settings, simple config
+[01 Basic configuration](steps/01%20basic/README.md) | Default settings, simple config
 [02 Typescript project](steps/02 typescript/README.md) | Typescript loader and webpack config in typescript
 [03 Live reloading](steps/03 live/README.md) | DevServer configuration and source maps
 [04 React app](steps/04 react/README.md) | React project
