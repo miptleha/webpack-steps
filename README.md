@@ -19,6 +19,7 @@ Step | Description
 [13 Typescript loaders](steps/13%20loaders/README.md) | Alternative typescript loaders
 [14 Source maps](steps/14%20maps/README.md) | Debug and stacktrace
 [15 Decomposition](steps/15%20decomposition/README.md) | Splitting the configuration file
+[16 JavaScript](steps/16%20javascript/README.md) | No TypeScript files
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmiptleha%2Fwebpack-steps&count_bg=%230C7DBD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
