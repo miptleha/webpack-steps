@@ -1,13 +1,12 @@
 {
-  "name": "01 basic",
+  "name": "01_basic",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
     "build:dev": "webpack --env mode=development",
-    "build:prod": "webpack --env mode=production",
-    "start": "node dist/main.js"
+    "build:prod": "webpack --env mode=production"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.6.0",

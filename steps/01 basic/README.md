@@ -11,12 +11,10 @@ Node by default cannot run this app. Let's install a bundler to combine all the 
 npm add -D webpack webpack-cli
 ```
 
-Add build and start script to [package.json](package.json) and try them.
+Add build to [package.json](package.json) and try them.
 ```
 npm run build
-npm start
 ```
-A `hello` message will be printed to the console.
 
 Let's create a web application, for this we will need [index.html](src/index.html) and basic config [webpack.config.js](webpack.config.js) with html-webpack-plugin.
 ```
