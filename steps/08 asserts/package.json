@@ -1,5 +1,5 @@
 {
-  "name": "06",
+  "name": "08 asserts",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "webpack serve"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/html-webpack-plugin": "^3.2.9",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",

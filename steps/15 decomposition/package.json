@@ -1,25 +1,30 @@
 {
-  "name": "09",
+  "name": "15 decomposition",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack --env mode=production",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "check": "tsc"
   },
   "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "@svgr/webpack": "^8.1.0",
     "@types/html-webpack-plugin": "^3.2.9",
-    "@types/node": "^20.12.7",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/node": "^20.14.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@types/react-router-dom": "^5.3.3",
     "@types/webpack": "^5.28.5",
     "@types/webpack-bundle-analyzer": "^4.7.0",
-    "css-loader": "^7.1.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.9.0",
-    "sass": "^1.75.0",
+    "react-refresh": "^0.14.2",
+    "react-refresh-typescript": "^2.0.9",
+    "sass": "^1.77.4",
     "sass-loader": "^14.2.1",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1",
@@ -31,8 +36,14 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/base": "^5.0.0-beta.40",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/joy": "^5.0.0-beta.36",
+    "@mui/material": "^5.15.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
   }
 }

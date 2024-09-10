@@ -1,13 +1,12 @@
 {
-  "name": "03",
+  "name": "02 typescript",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build:dev",
-    "build:dev": "webpack",
-    "build:prod": "webpack --env mode=production",
-    "start": "webpack serve"
+    "build": "webpack",
+    "build:dev": "webpack --env mode=development",
+    "build:prod": "webpack --env mode=production"
   },
   "devDependencies": {
     "@types/html-webpack-plugin": "^3.2.9",
@@ -18,7 +17,6 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-cli": "^5.1.4"
   }
 }
